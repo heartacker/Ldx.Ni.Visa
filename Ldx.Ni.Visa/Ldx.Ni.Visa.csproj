@@ -3,18 +3,35 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <Authors>heartacker</Authors>
-    <Company>heartacker</Company>
+    <Company>IVI Foundation</Company>
     <Description>封装一下Ni.Visa 和IVI.Visa</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/heartacker/DotNetMask/</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/heartacker/DotNetMask/</PackageProjectUrl>
+    <RepositoryType>dll</RepositoryType>
+    <NeutralLanguage />
+    <Copyright>IVI Foundation&amp;&amp;NationalInstruments ©All Rights Reserved</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression />
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NationalInstruments.Visa.dll" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Kelary.Ivi.Visa" Version="5.11.3422" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="NationalInstruments.VisaNS">
-      <HintPath>C:\Users\heart\Desktop\NationalInstruments.VisaNS.dll</HintPath>
+      <HintPath>NationalInstruments.Visa.dll</HintPath>
     </Reference>
   </ItemGroup>
 
