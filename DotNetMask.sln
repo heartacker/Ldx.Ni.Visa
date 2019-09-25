@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ldx.Ni.Visa", "Ldx.Ni.Visa\Ldx.Ni.Visa.csproj", "{C7C2C2B4-2802-450B-9823-85B443901B71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7C2C2B4-2802-450B-9823-85B443901B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C2C2B4-2802-450B-9823-85B443901B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C2C2B4-2802-450B-9823-85B443901B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C2C2B4-2802-450B-9823-85B443901B71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED84CFAB-2383-48BA-8B88-6A27FCB1C32C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>heartacker</Authors>
+    <Company>heartacker</Company>
+    <Description>封装一下Ni.Visa 和IVI.Visa</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Kelary.Ivi.Visa" Version="5.11.3422" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NationalInstruments.VisaNS">
+      <HintPath>C:\Users\heart\Desktop\NationalInstruments.VisaNS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
