@@ -14,10 +14,11 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression />
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="NationalInstruments.Common.dll" />
     <None Remove="NationalInstruments.Visa.dll" />
   </ItemGroup>
 
@@ -30,8 +31,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="NationalInstruments.Common">
+      <HintPath>NationalInstruments.Common.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
     <Reference Include="NationalInstruments.Visa">
       <HintPath>NationalInstruments.Visa.dll</HintPath>
+      <Private>true</Private>
     </Reference>
   </ItemGroup>
 
