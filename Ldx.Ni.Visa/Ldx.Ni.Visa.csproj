@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <Authors>heartacker</Authors>
     <Company>IVI Foundation</Company>
-    <Description>封装一下Ni.Visa 和IVI.Visa</Description>
+    <Description>封装一下Ni.Visa 和IVI.Visa. 不,静静是打包一下而已</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/heartacker/DotNetMask/</RepositoryUrl>
     <PackageProjectUrl>https://github.com/heartacker/DotNetMask/</PackageProjectUrl>
@@ -13,8 +13,8 @@
     <Copyright>IVI Foundation&amp;&amp;NationalInstruments ©All Rights Reserved</Copyright>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression />
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="NationalInstruments.VisaNS">
+    <Reference Include="NationalInstruments.Visa">
       <HintPath>NationalInstruments.Visa.dll</HintPath>
     </Reference>
   </ItemGroup>
