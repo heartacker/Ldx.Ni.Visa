@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFrameworks>netcoreapp3.0;net4.6.1</TargetFrameworks>
     <Authors>heartacker</Authors>
     <Company>IVI Foundation</Company>
-    <Description>封装一下Ni.Visa 和IVI.Visa. 不,静静是打包一下而已</Description>
+    <Description>封装一下Ni.Visa 和IVI.Visa. 不,仅仅是打包一下而已</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/heartacker/DotNetMask/</RepositoryUrl>
     <PackageProjectUrl>https://github.com/heartacker/DotNetMask/</PackageProjectUrl>
@@ -14,7 +14,8 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression />
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>更改为至少支持net4.6.1</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
