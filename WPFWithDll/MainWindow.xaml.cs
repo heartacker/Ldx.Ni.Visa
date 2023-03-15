@@ -13,8 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Ivi.Visa;
-using Ldx.Ni.Visa;
-using NationalInstruments.VisaNS;
+using NationalInstruments.Visa;
 
 namespace WPFWithDll
 {
@@ -30,7 +29,7 @@ namespace WPFWithDll
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(typeof(NationalInstruments.VisaNS.IMessageBasedSession).FullName);
+            MessageBox.Show(typeof(NationalInstruments.Visa.MessageBasedSession).FullName);
         }
     }
 }

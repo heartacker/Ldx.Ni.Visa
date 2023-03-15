@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ldx.Ni.Visa" Version="1.0.1" />
+    <PackageReference Include="Ldx.Ni.Visa" Version="1.1.0" />
   </ItemGroup>
 
 </Project>
